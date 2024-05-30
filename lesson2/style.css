@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 24px;
+    justify-content: center;
+}
+
+.item {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
