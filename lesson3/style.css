@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 6px 6px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.container {
+    max-width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+}
+
+.left-block {
+    display: grid;
+    grid-template-rows: 20% 1fr;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    justify-content: start;
+    background-color: rgb(211, 222, 253);
+    padding: 24px;
+}
+
+.label-box {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.label-box-left-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 18px;
+}
+
+.error {
+    color: red;
+}
+
+.btn-add {
+    padding: 5px 10px;
+}
+
+.product-list-box {
+    background-color: rgb(229, 235, 253);
+    padding: 24px;
+}
+
+.product-list-item:hover {
+    cursor: pointer;
+    background-color: rgb(212, 222, 252);
+}
+
+.right-block {
+    background-color: rgb(186, 205, 255);
+    padding: 24px;
+}
+
+.product-comment-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-delete {
+    padding: 3px 6px;
+    border: 1px solid rgb(159, 186, 253);
+    background-color: rgb(229, 235, 253);
+    border-radius: 3px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.btn-delete:hover {
+    background-color: rgb(159, 186, 253);
+}
